@@ -1,7 +1,6 @@
 import string
 
 def print_rangoli(size):
-	blah = []
     width = 4*size - 3
     counter = int(0)
     letters = list(reversed(string.ascii_lowercase[:size]))
