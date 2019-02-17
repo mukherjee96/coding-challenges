@@ -1,7 +1,7 @@
 def verify(numbers, k):
     if(any(numbers[i]+numbers[j] == k for i in range(len(numbers)) for j in range(i+1, len(numbers)))):
         print(True)
-    else
+    else:
         print(False)
 
 if __name__ == '__main__':
